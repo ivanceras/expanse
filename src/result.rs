@@ -2,7 +2,7 @@ use crate::algo::ComputeResult;
 use crate::geometry::{Point, Size};
 use crate::number::Number;
 
-#[derive(Copy, Debug, Clone)]
+#[derive(Copy, Debug, Clone, PartialEq)]
 pub struct Layout {
     pub(crate) order: u32,
     pub size: Size<f32>,
