@@ -1,7 +1,7 @@
 [package]
-name = "stretch"
-version = "0.3.2"
-authors = ["Emil Sjölander <emil@visly.app>"]
+name = "expanse"
+version = "0.3.3"
+authors = ["Emil Sjölander <emil@visly.app>", "Jovansonlee Cesar <ivanceras@gmail.com"]
 edition = "2018"
 include = ["src/**/*", "Cargo.toml"]
 description = "High performance & cross-platform Flexbox implementation"

@@ -1,3 +1,6 @@
+# Expanse
+Expanse is a fork of stretch, publishing the latest code and some additional improvements
+
 # Stretch
 [![CircleCI](https://circleci.com/gh/vislyhq/stretch.svg?style=svg)](https://circleci.com/gh/vislyhq/stretch)
 [![Cargo](https://img.shields.io/crates/v/stretch.svg)](https://crates.io/crates/stretch)
