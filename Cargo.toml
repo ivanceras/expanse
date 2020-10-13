@@ -41,7 +41,7 @@ serde_kebab_case = ["serde"]
 
 [dev-dependencies]
 criterion = "0.3.0"
-stretch = { package = "expanse", version = "0.3.3", path = "./" }
+#stretch = { package = "expanse", version = "0.3.3", path = "./" }
 
 [profile.release]
 lto = true
