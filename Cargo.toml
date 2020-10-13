@@ -47,14 +47,14 @@ criterion = "0.3.0"
 lto = true
 panic = 'abort'
 
-[[bench]]
-name = "generated"
-path = "benches/generated/mod.rs"
-harness = false
+#[[bench]]
+#name = "generated"
+#path = "benches/generated/mod.rs"
+#harness = false
 
-[[bench]]
-name = "complex"
-harness = false
+#[[bench]]
+#name = "complex"
+#harness = false
 
-[workspace]
-members = [ "scripts/gentest" ]
+#[workspace]
+#members = [ "scripts/gentest" ]
