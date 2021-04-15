@@ -1,18 +1,17 @@
 [package]
 name = "expanse"
-version = "0.3.3"
+version = "0.3.4"
 authors = ["Emil Sjölander <emil@visly.app>", "Jovansonlee Cesar <ivanceras@gmail.com"]
 edition = "2018"
 include = ["src/**/*", "Cargo.toml"]
 description = "High performance & cross-platform Flexbox implementation"
-repository = "https://github.com/vislyhq/stretch"
+repository = "https://github.com/ivanceras/expanse"
 readme = "README.md"
-keywords = ["ios", "android", "cross-platform", "layout", "flexbox"]
+keywords = ["flexbox"]
 categories = ["gui"]
 license-file = "LICENSE"
 
 [badges]
-circle-ci = { repository = "vislyhq/stretch", branch = "master" }
 maintenance = { status = "experimental" }
 
 [dependencies]
@@ -41,7 +40,6 @@ serde_kebab_case = ["serde"]
 
 [dev-dependencies]
 criterion = "0.3.0"
-#stretch = { package = "expanse", version = "0.3.3", path = "./" }
 
 [profile.release]
 lto = true

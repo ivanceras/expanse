@@ -699,7 +699,7 @@ impl Forest {
                 let child = db.children[node][0];
                 calc_baseline(db, child, &db.nodes[child].layout)
             }
-        };
+        }
 
         if has_baseline_child {
             for line in &mut flex_lines {
